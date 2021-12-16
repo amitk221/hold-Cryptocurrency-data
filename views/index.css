@@ -1,0 +1,49 @@
+body{
+   background-color: black;
+}
+
+.navigation-item{
+align-items: center;
+}
+.heading{
+    text-align:  center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.value-item{
+    text-align: center;
+}
+.image{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.card-item{
+    
+    padding-left: 2%;
+}
+.card-styling{
+    padding-bottom: 1rem;
+}
+.crypto-image{
+    width: 90%;
+    padding-left: 4rem;
+}
+.item-value{
+    color: green;
+}
+.middle-item{
+    color: white;
+    font-size: 2rem;
+}
+.card-body{
+    background-color: rgba(34, 31, 31, 0.774);
+    color:white;
+}
+.card-first{
+    background-color: black;
+    color:white;
+}
+.card{
+    border: none;
+}

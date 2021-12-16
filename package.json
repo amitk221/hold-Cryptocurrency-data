@@ -1,0 +1,27 @@
+{
+  "name": "show-data",
+  "version": "1.0.0",
+  "description": "Holding data of cryptocurrency",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm install",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "author": "Amit kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "node-fetch": "^2.0.0",
+    "node-schedule": "^2.1.0"
+  }
+}
